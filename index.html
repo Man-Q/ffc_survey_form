@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Suvery Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 id="title" name="title">freeCodeCamp Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+            </div>
+            <div class="personal-details">
+                    <form id="survey-form" class="elements">
+                        <label id="name-label">Name of the person filling the form</label><br/>
+                        <input id="name" type="text" required  placeholder="Enter your name" value="Enter your name" class="taab"></input><br/>
+                        <label id="email-label">Email of the person filling the form</label><br/>
+                        <input id="email" type="email" required placeholder="Enter your email" value="Enter your email"></input><br/>
+                        <label id="number-label">Number of the person filling the form</label><br/>
+                        <input id="number" type="number" placeholder="Enter your number" value="Enter your number" min="0" max="10"></input><br/>
+                        <select id="dropdown">
+                        <option></option>
+                        <option></option>
+                        </select><br/>
+                        <input type="radio" name="radio-button" value="value"></input><br/>
+                        <input type="radio" name="radio-button" value="value"></input><br/>
+                        <input type="checkbox" value="checkbox"></input><br/>
+                        <input type="checkbox" value="checkbox"></input><br/>
+                        <textarea class="taab"></textarea><br/>
+                        <button id="submit" type="submit" class="taab">Submit</button><br/>
+                    </form>
+            </div>
+        </div>
+    </body>
+</html>
